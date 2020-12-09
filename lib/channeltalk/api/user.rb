@@ -10,6 +10,11 @@ module Channeltalk # :nodoc:
           parse(JSON.parse(connection.put("users/@#{member_id}", params.to_json).body))
           # connection.patch("users/#{user_id}", params.to_json)
         end
+
+        # Delete a user by memberId
+        def delete_user(member_id)
+          connection.delete("users/@#{member_id}")
+        end
       end
     end
   end
