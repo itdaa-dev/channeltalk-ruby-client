@@ -10,7 +10,7 @@ module Channeltalk
     DEFAULT_USER_AGENT = "Channeltalk Ruby Client Gem #{Channeltalk::VERSION}"
 
     # Base URI for the Channeltalk API.
-    DEFAULT_API_BASE_URI = "https://api.channel.io/open/v3/"
+    DEFAULT_API_BASE_URI = "https://api.channel.io/open/v5/"
 
     attr_accessor(*OPTION_KEYS)
 
