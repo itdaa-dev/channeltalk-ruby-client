@@ -8,7 +8,7 @@ class ConfigurationTest < Minitest::Spec
   end
 
   it "api_base_uri" do
-    assert_equal "https://api.channel.io/open/v3/", Channeltalk::Configuration::DEFAULT_API_BASE_URI
+    assert_equal "https://api.channel.io/open/v5/", Channeltalk::Configuration::DEFAULT_API_BASE_URI
   end
 
   it "must configure the gem with your api_key and api_secret" do
